@@ -1,7 +1,9 @@
-.repli
+.replit
 poetry.lock
 pyproject.toml
 replit.nix
+flask
+normalizer
 
 
 # Byte-compiled / optimized / DLL files
