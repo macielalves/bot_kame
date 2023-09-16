@@ -1,4 +1,4 @@
-from bot_kami import main
+import bot_kami as kami
 
 if __name__ == "__main__":
-  main()
+  kami.run()
