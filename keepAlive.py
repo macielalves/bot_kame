@@ -6,7 +6,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-  return 'alive: true'
+  return open('index', 'r', encoding='utf-8').read()
 
 
 def run():
