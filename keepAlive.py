@@ -1,16 +1,19 @@
-from flask import Flask
 from threading import Thread
 
-app = Flask('')
+from flask import Flask
+
+from page_config import html
+
+app = Flask('Bot Kame')
 
 
 @app.route('/')
 def home():
-  return open('index', 'r', encoding='utf-8').read()
+  return html()
 
 
 def run():
-  app.run(host='0.0.0.0', port=8080)
+  app.run(host='0.0.0.0', port=7045)
 
 
 def keep_alive():
