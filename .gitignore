@@ -4,6 +4,7 @@ pyproject.toml
 replit.nix
 flask
 normalizer
+botenv
 
 
 # Byte-compiled / optimized / DLL files
